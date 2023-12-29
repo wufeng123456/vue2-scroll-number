@@ -3,7 +3,7 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/components/scroll-number.md'
+      '/componentDocs/scroll-number.md'
     ]
   }
 }

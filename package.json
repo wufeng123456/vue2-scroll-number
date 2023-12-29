@@ -15,7 +15,8 @@
     "lint": "vue-cli-service lint",
     "build:lib": "vue-cli-service build --target lib --dest lib packages/index.js",
     "docs:dev": "vuepress dev docs",
-    "deploy": "deploy:bash ./deploy.sh"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
