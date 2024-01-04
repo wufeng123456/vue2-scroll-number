@@ -1,6 +1,6 @@
 {
   "name": "vue2-scroll-number",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "lib/vue2-scroll-number.umd.js",
   "license": "MIT",

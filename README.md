@@ -20,15 +20,20 @@ npm i vue2-scroll-number
 import Vue2ScrollNumber from 'vue2-scroll-number'
 import 'vue2-scroll-number/lib/vue2-scroll-number.css'
 Vue.use(Vue2ScrollNumber)
+
+<ScrollNumber :number="number"></ScrollNumber>
 ```
 
 在组件中注册局部组件
 
 ```javascript
+<ScrollNumber :number="number"></ScrollNumber>
+...
 import { ScrollNumber } from 'vue2-scroll-number'
 ...
 components: {
-  Vue2ScrollNumber
+  ScrollNumber
 }
 ```
+
 
