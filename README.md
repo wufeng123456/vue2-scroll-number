@@ -1,21 +1,34 @@
 # vue2-scroll-number
 
-## Project setup
-```
-npm install
+数字滚动组件
+
+支持千分位、小数点、百分比
+
+# 快速开始
+
+#### 安装组件
+
+```bash
+npm i vue2-scroll-number
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+#### 引用组件库
+
+在main.js中注册全局组件
+
+```javascript
+import Vue2ScrollNumber from 'vue2-scroll-number'
+import 'vue2-scroll-number/lib/vue2-scroll-number.css'
+Vue.use(Vue2ScrollNumber)
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+在组件中注册局部组件
+
+```javascript
+import { ScrollNumber } from 'vue2-scroll-number'
+...
+components: {
+  Vue2ScrollNumber
+}
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```

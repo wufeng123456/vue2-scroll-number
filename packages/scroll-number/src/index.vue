@@ -72,7 +72,7 @@ export default {
 			return nums.includes(val)
 		},
 		scroll() {
-			const numStr = this.thousands ? this.number.toString().replace(/(\d{1,3})(?=\d{3})+/g, '$1,') : this.number.toString()
+			const numStr = this.thousands ? this.number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') : this.number.toString()
 			this.numArr = numStr.split('').map(value => {
 				return {
 					num: value,

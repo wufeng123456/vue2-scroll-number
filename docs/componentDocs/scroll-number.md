@@ -4,17 +4,25 @@
 
 ### 示例
 
-  #### 整数
+  - 整数
 
   <ScrollNumber :number="9999999"></ScrollNumber>
 
-  #### 小数
+  - 小数
 
   <ScrollNumber :number="99999.99"></ScrollNumber>
 
-  #### %
+  - %
 
   <ScrollNumber :number="'99999.99%'"></ScrollNumber>
+
+  - 不使用千分位
+
+  <ScrollNumber :number="'99999.99%'" :thousands="false"></ScrollNumber>
+
+  - demo
+
+  <App />
 
 ### 代码
 
@@ -24,6 +32,8 @@
   <ScrollNumber :number="99999.99"></ScrollNumber>
 
   <ScrollNumber :number="'99999.99%'"></ScrollNumber>
+
+  <ScrollNumber :number="'99999.99%'" :thousands="false"></ScrollNumber>
 ```
 
 ### Attributes
@@ -31,3 +41,4 @@
 | 参数        | 说明           | 类型  |  可选值  |  默认值  |
 | ------------- |-------------| -----:| -------------| -----|
 | number      | 展示的值 | number/string | 整数/小数/百分比 | 0 |
+| thousands   | 是否显示千分位 | boolean | true/false | true |
