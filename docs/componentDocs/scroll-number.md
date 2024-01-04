@@ -4,23 +4,23 @@
 
 ### 示例
 
-  - 整数
+  1. 整数
 
   <ScrollNumber :number="9999999"></ScrollNumber>
 
-  - 小数
+  2. 小数
 
   <ScrollNumber :number="99999.99"></ScrollNumber>
 
-  - %
+  3. %
 
   <ScrollNumber :number="'99999.99%'"></ScrollNumber>
 
-  - 不使用千分位
+  4. 不使用千分位
 
   <ScrollNumber :number="'99999.99%'" :thousands="false"></ScrollNumber>
 
-  - demo
+  5. demo
 
   <App />
 
