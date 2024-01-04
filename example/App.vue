@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ScrollNumber from '@/scroll-number/src'
+// import ScrollNumber from '@/scroll-number/src'
 // import { ScrollNumber } from 'vue2-scroll-number'
 
 export default {
@@ -22,7 +22,7 @@ export default {
     }
   },
   components: {
-    ScrollNumber,
+    // ScrollNumber,
     // Vue2ScrollNumber
   },
   methods: {

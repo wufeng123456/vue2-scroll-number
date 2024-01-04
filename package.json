@@ -1,6 +1,6 @@
 {
   "name": "vue2-scroll-number",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "lib/vue2-scroll-number.umd.js",
   "license": "MIT",
@@ -31,8 +31,7 @@
     "core-js": "^3.8.3",
     "sass": "^1.69.5",
     "sass-loader": "^13.3.3",
-    "vue": "^2.6.14",
-    "vue2-scroll-number": "^0.1.7"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -44,7 +43,8 @@
     "eslint-plugin-vue": "^8.0.3",
     "style-loader": "^3.3.3",
     "vue-loader": "^17.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vue2-scroll-number": "^1.0.1"
   },
   "eslintConfig": {
     "root": true,
